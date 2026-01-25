@@ -2,7 +2,7 @@
 
 ## 개요
 **YOLOv8** 모델을 활용하여 음식 이미지를 탐지하는 AI 모델을 구축합니다.
-**Food-101** 데이터셋을 활용하였으며, 위치 라벨이 없는 데이터셋의 한계를 극복하기 위해 **중앙 고정 라벨링** 을 적용했습니다.
+**Food-101** 데이터셋을 활용하였으며, 위치 라벨이 없는 데이터셋의 한계를 극복하기 위해 중앙 고정 라벨링 을 적용했습니다.
 
 ## 실행
 setup_data.py - train.py - result.py
@@ -27,4 +27,5 @@ setup_data.py - train.py - result.py
 ### 필수 라이브러리
 
 pip install ultralytics opencv-python numpy pandas matplotlib datasets tqdm
+
 
