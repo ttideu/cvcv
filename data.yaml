@@ -1,0 +1,6 @@
+# data.yaml
+train: ./datasets/train/images # 학습 데이터 경로
+val: ./datasets/valid/images   # 검증 데이터 경로
+
+nc: 1                          # 클래스 개수
+names: ['food']                # 클래스 이름
